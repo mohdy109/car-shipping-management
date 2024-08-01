@@ -12,7 +12,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.get('/health', (req, res) => {
+    res.status(200).send('Server is healthy');
+  });
 app.use('/api/cars', carRoutes);
 app.use('/api/auth', authRoutes);
 
