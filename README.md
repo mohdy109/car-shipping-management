@@ -30,21 +30,21 @@ The Car Shipping Management application is a comprehensive platform designed to 
 
 ### Running in local frontend
 cd car-shipping-management/cliend
--npm install
--npm run dev 
+- npm install
+- npm run dev 
 
 For Docker Container
--docker build -t react-app .
--docker run -p 80:80 react-app
+- docker build -t react-app .
+- docker run -p 80:80 react-app
 
 ### Running in local backend
 cd car-shipping-management/backend
--npm install
--npm run dev 
+- npm install
+- npm run dev 
 
 For Docker Container
--docker build -t my-node-app .
--docker run -p 3000:3000 my-node-app
+- docker build -t my-node-app .
+- docker run -p 3000:3000 my-node-app
 
 ### Clone the Repository
 
